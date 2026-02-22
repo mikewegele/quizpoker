@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Button, Card, CardContent, Divider, Stack, Typography } from "@mui/material";
-import type { QuizItem } from "./App";
+import type { QuizItem } from "./types";
 
 type Props = {
     item: QuizItem;
