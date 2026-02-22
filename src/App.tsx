@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useMemo, useState} from "react";
 import { Box, Button, CssBaseline, Stack, ThemeProvider, Typography, createTheme } from "@mui/material";
 import { RevealCard } from "./RevealCard";
 import { questions } from "./data/questions";
@@ -15,10 +15,26 @@ const theme = createTheme({
     },
 });
 
+const shuffleArray = <T,>(array: T[]): T[] => {
+    const result = [...array]
+
+    for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1))
+        ;[result[i], result[j]] = [result[j], result[i]]
+    }
+
+    return result
+}
+
 const App = () => {
     const [index, setIndex] = useState(0);
 
-    const nextQuestion = () => setIndex((p) => (p + 1) % questions.length);
+
+    const shuffledQuestions = useMemo(() => {
+        return shuffleArray(questions)
+    }, [questions]);
+
+    const nextQuestion = () => setIndex((p) => (p + 1) % shuffledQuestions.length);
 
     return (
         <ThemeProvider theme={theme}>
@@ -84,7 +100,7 @@ const App = () => {
                         </Typography>
 
                         {/* key={index} resettet die RevealCard bei neuer Frage */}
-                        <RevealCard key={index} item={questions[index]} />
+                        <RevealCard key={index} item={shuffledQuestions[index]} />
 
                         <Button
                             variant="contained"
