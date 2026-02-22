@@ -1,55 +1,278 @@
-import type { QuizItem } from "../types";
+import type {QuizItem} from "../types.ts";
 
 export const questions: QuizItem[] = [
-    { question: "Wie viele Sekunden dauerte der schnellste Knockout in einem UFC-Titelkampf?", hint1: "Er passierte direkt zu Beginn des Kampfes.", hint2: "Der Rekord liegt unter 15 Sekunden.", answer: "13" },
-    { question: "Wie viele Kilometer ist der Nil lang?", hint1: "Er fließt durch elf Länder.", hint2: "Er ist einer der längsten Flüsse der Welt.", answer: "6650" },
-    { question: "Wie viele Oscars gewann Titanic?", hint1: "Er stellte einen Rekord ein.", hint2: "Er gewann Bester Film.", answer: "11" },
-    { question: "Wie viele Millionen Menschen verfolgten die Mondlandung 1969 im Fernsehen?", hint1: "Es war das erste globale Live-Medienereignis.", hint2: "Das entsprach etwa einem Fünftel der Weltbevölkerung.", answer: "600" },
-    { question: "Wie viele Kilometer ist der Ärmelkanal an der schmalsten Stelle breit?", hint1: "Zwischen Dover und Calais.", hint2: "Dort verläuft der Eurotunnel.", answer: "34" },
-    { question: "Wie viele Meter ist ein Marathon exakt lang?", hint1: "Die heutige Distanz wurde 1908 festgelegt.", hint2: "Die Strecke endet traditionell vor einer königlichen Loge.", answer: "42195" },
-    { question: "Wie viele Jahre saß Nelson Mandela im Gefängnis?", hint1: "Er wurde zu lebenslanger Haft verurteilt.", hint2: "Er wurde 1990 freigelassen.", answer: "27" },
-    { question: "Wie viele Tasten hat ein Klavier?", hint1: "Eine Oktave hat 12 Tasten.", hint2: "Es gibt sieben volle Oktaven plus Zusatz.", answer: "88" },
-    { question: "Wie viele Sekunden hat ein Tag?", hint1: "Ein Tag hat 24 Stunden.", hint2: "Eine Stunde hat 60 Minuten.", answer: "86400" },
-    { question: "Wie viele Meter hoch ist der Burj Khalifa?", hint1: "Er steht in Dubai.", hint2: "Er ist das höchste Gebäude der Welt.", answer: "828" },
-    { question: "Wie viele Jahre war Angela Merkel Bundeskanzlerin?", hint1: "Sie begann 2005.", hint2: "Sie war über 15 Jahre im Amt.", answer: "16" },
-    { question: "Wie viele Knochen hat ein erwachsener Mensch?", hint1: "Babys haben mehr.", hint2: "Einige wachsen später zusammen.", answer: "206" },
-    { question: "Wie viele Millionen Dollar spielte Avatar weltweit ein?", hint1: "Er überschritt 2,9 Milliarden Dollar.", hint2: "Er war lange Zeit der erfolgreichste Film.", answer: "2923" },
-    { question: "Wie viele Länder sind Mitglied der Vereinten Nationen?", hint1: "Der Südsudan ist das jüngste Mitglied.", hint2: "Nicht alle Staaten sind Vollmitglieder.", answer: "193" },
-    { question: "Wie viele Liter Wasser verbraucht eine Jeans in der Produktion?", hint1: "Baumwollanbau ist extrem wasserintensiv.", hint2: "Das entspricht mehreren Badewannen.", answer: "7000" },
-    { question: "Wie viele Jahre dauerte der Bau der Cheops-Pyramide?", hint1: "Sie wurde um 2600 v. Chr. errichtet.", hint2: "Historiker gehen von wenigen Jahrzehnten aus.", answer: "20" },
-    { question: "Wie viele Kilometer misst die Route 66?", hint1: "Sie verband Chicago mit Los Angeles.", hint2: "Sie führte durch acht Bundesstaaten.", answer: "3940" },
-    { question: "Wie viele Minuten dauerte der kürzeste Krieg der Geschichte?", hint1: "Er fand 1896 statt.", hint2: "Er dauerte kürzer als eine Schulstunde.", answer: "38" },
-    { question: "Wie viele Milliarden Dollar kostete das James-Webb-Weltraumteleskop?", hint1: "Die Planung begann in den 1990ern.", hint2: "Es war deutlich teurer als geplant.", answer: "10" },
-    { question: "Wie viele Prozent der Erdoberfläche sind von Wasser bedeckt?", hint1: "Der größte Teil ist Salzwasser.", hint2: "Land macht weniger als ein Drittel aus.", answer: "71" },
-    { question: "Wie viele Kilometer ist die Transsibirische Eisenbahn lang?", hint1: "Sie verbindet Moskau mit Wladiwostok.", hint2: "Die Reise dauert fast eine Woche.", answer: "9289" },
-    { question: "Wie viele Sekunden dauerte Usain Bolts Weltrekord über 100 Meter?", hint1: "Er stellte ihn 2009 auf.", hint2: "Die Zeit liegt unter 10 Sekunden.", answer: "9.58" },
-    { question: "Wie viele Millionen Liter Bier werden jährlich auf dem Oktoberfest ausgeschenkt?", hint1: "Das Fest dauert zwei Wochen.", hint2: "Die Zahl liegt im einstelligen Millionenbereich.", answer: "7" },
-    { question: "Wie viele Meter tief ist der Marianengraben?", hint1: "Er liegt im Pazifik.", hint2: "Er ist tiefer als der Mount Everest hoch ist.", answer: "10994" },
-    { question: "Wie viele Planeten hat unser Sonnensystem?", hint1: "Pluto zählt seit 2006 nicht mehr dazu.", hint2: "Die Zahl ist einstellig.", answer: "8" },
-    { question: "Wie viele Minuten dauerte das längste Wimbledon-Match?", hint1: "Es fand 2010 statt.", hint2: "Es ging über drei Tage.", answer: "665" },
-    { question: "Wie viele Kilometer ist der längste Nonstop-Linienflug?", hint1: "Er verbindet Singapur mit New York.", hint2: "Er dauert fast 19 Stunden.", answer: "15343" },
-    { question: "Wie viele Jahre war Queen Elizabeth II. im Amt?", hint1: "Sie bestieg 1952 den Thron.", hint2: "Sie war länger im Amt als jede andere britische Monarchin.", answer: "70" },
-    { question: "Wie viele Meter hoch ist der Eiffelturm inklusive Antenne?", hint1: "Er wurde 1889 eröffnet.", hint2: "Er ist höher als 300 Meter.", answer: "330" },
-    { question: "Wie viele Kilometer misst der Äquator?", hint1: "Er entspricht dem Erdumfang.", hint2: "Er verläuft durch Ecuador.", answer: "40075" },
-    { question: "Wie viele Stunden schläft ein Mensch durchschnittlich im Leben?", hint1: "Etwa ein Drittel unseres Lebens verschlafen wir.", hint2: "Bei 80 Jahren summiert sich das stark.", answer: "233600" },
-    { question: "Wie viele Milliarden Dollar Umsatz machte Apple 2023?", hint1: "Apple gehört zu den umsatzstärksten Unternehmen.", hint2: "Der Umsatz lag über 300 Milliarden Dollar.", answer: "383" },
-    { question: "Wie viele Meter tief ist der Bodensee an der tiefsten Stelle?", hint1: "Er liegt zwischen drei Ländern.", hint2: "Er ist über 200 Meter tief.", answer: "254" },
-    { question: "Wie viele Jahre dauerte der Bau des Petersdoms?", hint1: "Baubeginn 1506.", hint2: "Fertigstellung 1626.", answer: "120" },
-    { question: "Wie viele Millionen Dollar kostete das teuerste versteigerte Gemälde?", hint1: "Leonardo da Vinci.", hint2: "Verkauft 2017.", answer: "450" },
-    { question: "Wie viele Kilometer Unterseekabel liegen weltweit?", hint1: "Transportieren Internetverkehr.", hint2: "Mehrfacher Erdumfang.", answer: "1400000" },
-    { question: "Wie viele Minuten dauerte der längste Applaus der Welt?", hint1: "Opernfestival.", hint2: "Über eine Stunde.", answer: "80" },
-    { question: "Wie viele Jahre dauerte der Kalte Krieg?", hint1: "Beginn 1947.", hint2: "Ende 1991.", answer: "44" },
-    { question: "Wie viele Sitze hat der Deutsche Bundestag?", hint1: "Reform 2025.", hint2: "Über 600.", answer: "630" },
-    { question: "Wie viele Zähne hat ein erwachsener Mensch?", hint1: "Inklusive Weisheitszähne.", hint2: "Kinder haben weniger.", answer: "32" },
-    { question: "Wie viele Kilometer ist die Chinesische Mauer lang?", hint1: "Neu vermessen 2012.", hint2: "Über 20.000 Kilometer.", answer: "21196" },
-    { question: "Wie viele Sekunden dauerte die längste Oscar-Dankesrede?", hint1: "Zeitlimits kamen später.", hint2: "Über fünf Minuten.", answer: "330" },
-    { question: "Wie viele Kilometer fährt ein Formel-1-Auto pro Saison?", hint1: "Über 20 Rennen.", hint2: "Trainings kommen hinzu.", answer: "20000" },
-    { question: "Wie viele Milliarden Menschen leben 2026 auf der Erde?", hint1: "2011 waren es sieben Milliarden.", hint2: "Wachstum hält an.", answer: "8" },
-    { question: "Wie viele Minuten dauert ein Umlauf der ISS?", hint1: "16 Sonnenaufgänge pro Tag.", hint2: "Ein Tag hat 24 Stunden.", answer: "92" },
-    { question: "Wie viele Liter Blut hat ein Mensch durchschnittlich?", hint1: "Eine Spende sind 0,5 Liter.", hint2: "Das ist etwa ein Zehntel.", answer: "5" },
-    { question: "Wie viele Jahre dauerte der Zweite Weltkrieg in Europa?", hint1: "Beginn 1939.", hint2: "Ende 1945.", answer: "6" },
-    { question: "Wie alt war Alexander der Große?", hint1: "Eroberte ein Weltreich.", hint2: "Keine 35 Jahre alt.", answer: "32" },
-    { question: "Wie viele Kilometer ist die längste Autobahn Deutschlands?", hint1: "A7.", hint2: "Von Dänemark bis Österreich.", answer: "960" },
-    { question: "Wie viele Menschen arbeiteten am Manhattan-Projekt?", hint1: "Streng geheim.", hint2: "Sechsstellig.", answer: "130000" },
-    { question: "Wie viele Jahre dauerte es bis Netflix eine Million Abonnenten hatte?", hint1: "Start 1997.", hint2: "Streaming kam später.", answer: "6" }
+
+    {
+        question: "Wie viele Liter Bier wurden beim Oktoberfest 2023 ausgeschenkt?",
+        hint1: "Rund sechs Millionen Menschen besuchen das Fest in starken Jahren.",
+        hint2: "Im Schnitt trinkt jeder Besucher etwas mehr als eine Maß.",
+        answer: "7200000"
+    },
+
+    {
+        question: "Wie viele Kalorien hat eine ganze Domino’s Pizza Salami (30 cm)?",
+        hint1: "Allein der Käse liefert mehrere hundert Kalorien.",
+        hint2: "Eine ganze Pizza entspricht ungefähr dem Tagesbedarf einer kleineren Person.",
+        answer: "2100"
+    },
+
+    {
+        question: "Wie viele Sitzplätze hat die Allianz Arena in München bei Bundesliga-Spielen?",
+        hint1: "Der FC Bayern spielt hier seine Heimspiele.",
+        hint2: "Bei internationalen Spielen sind es etwas weniger.",
+        answer: "75000"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Berlin nach Paris?",
+        hint1: "Mit dem Flugzeug dauert es knapp zwei Stunden.",
+        hint2: "Mit dem Auto fährt man durch ganz Deutschland und halb Frankreich.",
+        answer: "1050"
+    },
+
+    {
+        question: "Wie viele Liter Treibstoff verbraucht eine Boeing 747 pro Stunde?",
+        hint1: "Sie hat vier große Triebwerke.",
+        hint2: "Der Verbrauch liegt im fünfstelligen Bereich pro Stunde.",
+        answer: "10000"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Whopper bei Burger King?",
+        hint1: "Er ist größer als ein Big Mac.",
+        hint2: "Er liegt deutlich über 600 kcal.",
+        answer: "660"
+    },
+
+    {
+        question: "Wie viele Meter ist das Brandenburger Tor breit?",
+        hint1: "Es hat sechs Säulenreihen.",
+        hint2: "Es ist breiter als ein Fußballtor – deutlich.",
+        answer: "65"
+    },
+
+    {
+        question: "Wie viele Abonnenten hat der Instagram-Account von Cristiano Ronaldo ungefähr?",
+        hint1: "Er ist der meistgefolgte Mensch der Plattform.",
+        hint2: "Die Zahl liegt im hohen dreistelligen Millionenbereich.",
+        answer: "600000000"
+    },
+
+    {
+        question: "Wie viele Kilometer legt ein durchschnittlicher ICE 4 pro Jahr zurück?",
+        hint1: "Er ist fast täglich im Fernverkehr unterwegs.",
+        hint2: "Die Zahl liegt deutlich im sechsstelligen Bereich.",
+        answer: "500000"
+    },
+
+    {
+        question: "Wie viele Liter Wasser passen in den Müggelsee?",
+        hint1: "Er ist der größte See Berlins.",
+        hint2: "Er ist über 7 Kilometer lang.",
+        answer: "110000000"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Croissant von BackWerk?",
+        hint1: "Butter ist der Hauptkalorienträger.",
+        hint2: "Es liegt näher an 300 als an 200.",
+        answer: "280"
+    },
+
+    {
+        question: "Wie viele Kilometer ist der Nürburgring (Nordschleife) lang?",
+        hint1: "Er gilt als eine der schwierigsten Rennstrecken der Welt.",
+        hint2: "Er ist deutlich länger als 15 Kilometer.",
+        answer: "21"
+    },
+
+    {
+        question: "Wie viele Menschen arbeiten ungefähr bei Volkswagen weltweit?",
+        hint1: "VW ist einer der größten Autohersteller der Welt.",
+        hint2: "Die Zahl liegt im hohen sechsstelligen Bereich.",
+        answer: "670000"
+    },
+
+    {
+        question: "Wie viele Liter Bier passen in ein typisches Oktoberfest-Zelt gleichzeitig?",
+        hint1: "Ein großes Zelt fasst über 10000 Gäste.",
+        hint2: "Viele bestellen direkt mehrere Maß.",
+        answer: "20000"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Köln nach Frankfurt?",
+        hint1: "Mit dem ICE dauert es etwa eine Stunde.",
+        hint2: "Die Autobahn A3 verbindet beide Städte.",
+        answer: "190"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Magnum Classic Eis?",
+        hint1: "Die Schokolade macht fast die Hälfte der Kalorien aus.",
+        hint2: "Es liegt knapp unter 300 kcal.",
+        answer: "260"
+    },
+
+    {
+        question: "Wie viele Meter ist die Freiheitsstatue (inklusive Sockel) hoch?",
+        hint1: "Sie steht seit 1886 in New York.",
+        hint2: "Sie ist höher als der Berliner Fernsehturm? Nein – deutlich niedriger.",
+        answer: "93"
+    },
+
+    {
+        question: "Wie viele Liter Blut werden in Deutschland pro Jahr gespendet?",
+        hint1: "Pro Spende sind es etwa 0,5 Liter.",
+        hint2: "Mehrere Millionen Menschen spenden jährlich.",
+        answer: "3000000"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Hamburg nach Berlin?",
+        hint1: "Mit dem ICE dauert es unter zwei Stunden.",
+        hint2: "Mit dem Auto fährt man über die A24.",
+        answer: "280"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Döner mit extra Käse?",
+        hint1: "Käse bringt nochmal mehrere hundert Kalorien extra.",
+        hint2: "Man kratzt damit an der 1000er-Marke.",
+        answer: "950"
+    },
+
+    {
+        question: "Wie viele Sitzplätze hat das Olympiastadion Berlin bei Bundesliga-Spielen?",
+        hint1: "Hertha BSC spielt hier seine Heimspiele.",
+        hint2: "Bei Konzerten sind es mehr.",
+        answer: "74475"
+    },
+
+    {
+        question: "Wie viele Kilometer ist der Grand Canyon lang?",
+        hint1: "Er liegt im US-Bundesstaat Arizona.",
+        hint2: "Er ist deutlich länger als 300 Kilometer.",
+        answer: "446"
+    },
+
+    {
+        question: "Wie viele Kalorien hat eine 0,5 Liter Flasche Paulaner Hefeweizen?",
+        hint1: "Alkohol liefert fast so viele Kalorien wie Fett.",
+        hint2: "Ein halber Liter Bier liegt über 200 kcal.",
+        answer: "215"
+    },
+
+    {
+        question: "Wie viele Meter tief ist der Bodensee an seiner tiefsten Stelle?",
+        hint1: "Er ist tiefer als viele denken.",
+        hint2: "Er liegt deutlich über 200 Meter.",
+        answer: "254"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Stuttgart nach Zürich?",
+        hint1: "Man fährt durch Süddeutschland in die Schweiz.",
+        hint2: "Die Strecke liegt knapp unter 250 Kilometer.",
+        answer: "220"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Nutella-Glas mit 450 Gramm insgesamt?",
+        hint1: "100 Gramm haben über 500 kcal.",
+        hint2: "Das ganze Glas ist eine echte Kalorienbombe.",
+        answer: "2400"
+    },
+
+    {
+        question: "Wie viele Mitarbeiter beschäftigt die Deutsche Bahn ungefähr?",
+        hint1: "Sie ist einer der größten Arbeitgeber Deutschlands.",
+        hint2: "Die Zahl liegt im mittleren sechsstelligen Bereich.",
+        answer: "320000"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Madrid nach Barcelona?",
+        hint1: "Mit dem AVE dauert es etwa 2,5 Stunden.",
+        hint2: "Die Strecke liegt bei rund 600 Kilometer.",
+        answer: "620"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Snickers-Riegel?",
+        hint1: "Erdnüsse, Karamell und Schokolade summieren sich.",
+        hint2: "Er liegt deutlich über 200 kcal.",
+        answer: "250"
+    },
+
+    {
+        question: "Wie viele Meter ist die Golden Gate Bridge lang?",
+        hint1: "Sie verbindet San Francisco mit Marin County.",
+        hint2: "Sie ist über zwei Kilometer lang.",
+        answer: "2737"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Rom nach Mailand?",
+        hint1: "Mit dem Schnellzug dauert es etwa drei Stunden.",
+        hint2: "Man durchquert fast ganz Italien.",
+        answer: "570"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein Starbucks Caramel Frappuccino (Grande)?",
+        hint1: "Sahne und Sirup treiben die Zahl hoch.",
+        hint2: "Er liegt deutlich über 300 kcal.",
+        answer: "380"
+    },
+
+    {
+        question: "Wie viele Einwohner hat München ungefähr?",
+        hint1: "Es ist die drittgrößte Stadt Deutschlands.",
+        hint2: "Die Zahl liegt über 1,5 Millionen.",
+        answer: "1500000"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Wien nach Budapest?",
+        hint1: "Mit dem Zug dauert es etwa 2,5 Stunden.",
+        hint2: "Die Strecke liegt unter 300 Kilometer.",
+        answer: "240"
+    },
+
+    {
+        question: "Wie viele Kalorien hat ein McFlurry Oreo?",
+        hint1: "Eis plus Kekse sind keine Diät.",
+        hint2: "Er liegt deutlich über 400 kcal.",
+        answer: "510"
+    },
+
+    {
+        question: "Wie viele Meter ist der Eiffelturm hoch (inklusive Antenne)?",
+        hint1: "Er war 1889 das höchste Bauwerk der Welt.",
+        hint2: "Er ist deutlich über 300 Meter hoch.",
+        answer: "330"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Amsterdam nach Berlin?",
+        hint1: "Mit dem Zug dauert es rund sechs Stunden.",
+        hint2: "Man fährt durch die Niederlande und Norddeutschland.",
+        answer: "650"
+    },
+
+    {
+        question: "Wie viele Kalorien hat eine Tiefkühlpizza Dr. Oetker Salami komplett?",
+        hint1: "Die Pizza wiegt rund 350 Gramm.",
+        hint2: "100 Gramm liegen bei über 250 kcal.",
+        answer: "900"
+    },
+
+    {
+        question: "Wie viele Kilometer ist die Strecke von Los Angeles nach Las Vegas?",
+        hint1: "Viele fahren die Strecke übers Wochenende.",
+        hint2: "Sie liegt deutlich unter 500 Kilometer.",
+        answer: "430"
+    }
+
 ];
