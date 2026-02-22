@@ -2,244 +2,244 @@ import type {QuizItem} from "../types.ts";
 
 export const questions: QuizItem[] = [
         {
-            "question": "Wie viele Gramm Zucker stecken in einer einzigen 500ml-Flasche Coca-Cola Classic?",
-            "hint1": "Stell dir vor, du sitzt im Café und bestellst dir einen Stapel Zuckerwürfel zum Nachtisch.",
-            "hint2": "Es sind so viele Gramm, wie ein durchschnittliches Kartenspiel (ohne Joker) Karten hat.",
-            "answer": 53
+            "question": "Wie viele Euro kostet ein 'Standard-Abo' bei Netflix (HD, werbefrei) im Jahr 2025 in Deutschland?",
+            "hint1": "Das Teilen von Accounts wurde erschwert, aber die Preise haben sich nach der großen Welle stabilisiert.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, du gehst einmal im Monat günstig Pizza essen.",
+            "answer": 14
         },
         {
-            "question": "Wie viele verschiedene Kräuter und Gewürze stecken laut offizielle Rezeptur in einer Flasche Jägermeister?",
-            "hint1": "Der Kräuterlikör aus Wolfenbüttel ist eine botanische Volksversammlung in einer grünen Flasche.",
-            "hint2": "Es ist eine stolze Zahl, die genau zwischen 50 und 60 liegt – eine für jedes Kraut.",
-            "answer": 56
+            "question": "Wie viele Millionen Kilometer legen alle Berliner S-Bahnen zusammen an einem einzigen Tag zurück?",
+            "hint1": "Die gelben Züge umrunden die Erde quasi mehrfach, während du nur drei Stationen zum Alexanderplatz fährst.",
+            "hint2": "Es ist eine kleine zweistellige Zahl. Stell dir vor, du würdest 75 Mal von Berlin nach München fahren.",
+            "answer": 73
         },
         {
-            "question": "Wie viele Kilo Currywurst werden in Deutschland pro Minute verdrückt?",
-            "hint1": "Während du diese Frage vorliest, schaufeln sich die Deutschen tonnenweise ihre Nationalspeise rein.",
-            "hint2": "Die Zahl ist zweistellig und entspricht etwa dem Alter, in dem man in Deutschland offiziell als 'alt' galt (bevor die Rente mit 67 kam).",
-            "answer": 67
+            "question": "Wie viele Gramm wiegt eine handelsübliche Packung 'Milka Alpenmilch' (Standardtafel) im Jahr 2025?",
+            "hint1": "Früher waren es 100g, aber 'Shrinkflation' ist ein Thema in den Supermärkten geworden.",
+            "hint2": "Es ist eine zweistellige Zahl, die knapp unter der 100 liegt. Fast so viel wie eine Tafel früher.",
+            "answer": 85
         },
         {
-            "question": "Wie viele Tasten hat ein Standard-Konzertflügel (z.B. von Steinway & Sons)?",
-            "hint1": "Eine schwarz-weiße Tastatur-Armee, die fast neun Oktaven abdeckt.",
-            "hint2": "Zwei Achten nebeneinander – ein absoluter Klassiker der Musikgeschichte.",
-            "answer": 88
+            "question": "Wie viele Euro kostet das 'ChatGPT Plus' Abo (Individual-Plan) monatlich im Jahr 2026?",
+            "hint1": "Die Preise für KI-Power sind seit der Einführung weitgehend konstant geblieben, um die Masse zu halten.",
+            "hint2": "Es ist eine zweistellige Zahl. Genau so viele Euro, wie ein ordentliches Frühstück für zwei Personen beim Bäcker kostet.",
+            "answer": 20
         },
         {
-            "question": "Wie viele Stockwerke hat das höchste Gebäude Berlins (der neue Edge East Side Tower an der Warschauer Brücke)?",
-            "hint1": "Der Amazon-Turm hat die Skyline im Osten der Stadt komplett gesprengt.",
-            "hint2": "Es ist eine Zahl, die man oft mit einer 'Silberhochzeit' verbindet – plus ein stolzer Bonus von 11 Jahren.",
-            "answer": 36
+            "question": "Wie viele Sekunden darf ein 'YouTube Short' im Jahr 2025 maximal lang sein?",
+            "hint1": "Google orientiert sich hier am großen Konkurrenten TikTok für das vertikale Kurzformat.",
+            "hint2": "Es ist genau eine volle Minute. Also...",
+            "answer": 60
         },
         {
-            "question": "Wie viele Sekunden braucht das Licht der Sonne, um die Erde zu erreichen?",
-            "hint1": "Wenn die Sonne jetzt ausginge, hättest du noch Zeit für einen kompletten Radio-Song, bevor es dunkel wird.",
-            "hint2": "Die Zahl ist eine glatte Hunderterstelle – ein echtes kosmisches Wettrennen.",
-            "answer": 500
+            "question": "Wie viele Euro kostet ein 'Tagesticket AB' für den Berliner Nahverkehr im Sommer 2025?",
+            "hint1": "Für Touristen ohne Abo ist das die gängigste Methode, die Stadt zu erkunden.",
+            "hint2": "Es ist eine zweistellige Zahl. Ein kleiner Betrag mehr als eine Zehner-Stange Zigaretten (früher).",
+            "answer": 10
         },
         {
-            "question": "Wie viele Liter Bier passen in das größte jemals hergestellte Bierglas der Welt?",
-            "hint1": "Es ist fast 4 Meter hoch. Wenn du das alleine austrinkst, siehst du wahrscheinlich rosa Elefanten tanzen.",
-            "hint2": "Die Zahl ist fünfstellig und fängt mit einer 12 an – genug für ein ganzes Dorf.",
-            "answer": 12910
+            "question": "Wie viele Gigabyte Speicherplatz belegt eine durchschnittliche Installation von 'WhatsApp' auf einem Smartphone 2026 (ohne Medien)?",
+            "hint1": "Die App selbst wird immer komplexer, mit KI-Features und Status-Funktionen.",
+            "hint2": "Es ist eine dreistellige Zahl in Megabyte. Wir suchen den Wert in Megabyte als Ganzzahl.",
+            "answer": 150
         },
         {
-            "question": "Wie viele Kalorien (kcal) hat ein einziger Big Mac bei McDonald's Deutschland?",
-            "hint1": "Zwei Scheiben Rindfleisch, die berühmte Sauce und drei Lagen Brot – ein echtes Hüftgold-Monument.",
-            "hint2": "Es ist eine dreistellige Zahl, die genau so hoch ist wie die Spielminuten eines Fußballspiels plus 450.",
-            "answer": 540
+            "question": "Wie viele Millionen Nutzer hat 'Bluesky' Anfang 2025 schätzungsweise erreicht?",
+            "hint1": "Nach dem Chaos bei X (Twitter) sind viele User zur Alternative mit dem blauen Schmetterling abgewandert.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, jeder vierte Deutsche wäre dort angemeldet.",
+            "answer": 20
         },
         {
-            "question": "Wie viele Milligramm Koffein enthält eine Standard-Dose (250ml) Red Bull?",
-            "hint1": "Der Gummibärchensaft mit Raketenantrieb – genau die Menge, die dich durch die Nacht bringt.",
-            "hint2": "Es ist eine glatte Zahl, die man oft mit dem Alter der Volljährigkeit in den USA assoziiert (fast, plus 59). Nein, denk an die 80er Jahre!",
-            "answer": 80
+            "question": "Wie viele Euro kostet die 'Apple Vision Pro' (1. Generation) aktuell gebraucht bei eBay im Jahr 2025?",
+            "hint1": "Der erste Hype ist vorbei, die Early Adopter verkaufen ihre Geräte für das Nachfolgemodell.",
+            "hint2": "Es ist eine vierstellige Zahl. Etwa so viel wie ein sehr guter gebrauchter Kleinwagen.",
+            "answer": 2500
         },
         {
-            "question": "Wie viele Zeichen hat der längste offiziell anerkannte Ortsname in Deutschland?",
-            "hint1": "Er liegt in Schleswig-Holstein und man braucht beim Schreiben fast eine zweite Zeile auf dem Briefumschlag.",
-            "hint2": "Zähl mal: Hellschen-Heringsand-Unterschaar. Es sind genau so viele wie Karten in einem Skatblatt.",
-            "answer": 32
+            "question": "Wie viele verschiedene Programmiersprachen unterstützt 'GitHub Copilot' im Jahr 2026 nativ?",
+            "hint1": "Die KI hat fast alles gelernt, was jemals in Code geschrieben wurde.",
+            "hint2": "Es ist eine zweistellige Zahl. Es sind mehr als die Bundesländer Deutschlands, aber weniger als 50.",
+            "answer": 42
         },
         {
-            "question": "Wie viele Millionen Euro kostet ein 30-sekündiger Werbespot beim US-Super-Bowl aktuell?",
-            "hint1": "Die teuerste halbe Minute der Welt – Firmen geben hier ihr gesamtes Jahresbudget aus.",
-            "hint2": "Es ist eine einstellige Zahl, die eine Glückszahl in vielen Kulturen ist.",
-            "answer": 7
+            "question": "Wie viele Euro kostet ein 'Kilo Bio-Bananen' bei einem Discounter wie Lidl oder Aldi im Jahr 2025?",
+            "hint1": "Bananen sind das Preis-Barometer im Obstregal und bleiben meist stabil.",
+            "hint2": "Es ist eine einstellige Zahl mit Komma, wir suchen den Cent-Betrag. Es ist fast genau zwei Euro.",
+            "answer": 199
         },
         {
-            "question": "Wie viele Tastenanschläge pro Minute schafft der Weltrekordhalter im Schnellschreiben?",
-            "hint1": "Das Geräusch klingt wie ein Maschinengewehr auf Speed – die Tastatur glüht förmlich.",
-            "hint2": "Es ist eine Zahl, die knapp unter 800 liegt. Ein absoluter Tipp-Wahnsinn.",
-            "answer": 759
+            "question": "Wie viele Minuten verbringt ein durchschnittlicher Erwachsener 2026 täglich mit 'Streaming-Diensten'?",
+            "hint1": "Lineares Fernsehen stirbt aus, wir schauen On-Demand, wann wir wollen.",
+            "hint2": "Es ist eine dreistellige Zahl. Etwa so viel wie zwei lange Spielfilme hintereinander.",
+            "answer": 180
         },
         {
-            "question": "Wie viele verschiedene Pizzasorten wurden beim Weltrekord in Berlin auf einer einzigen Pizza serviert?",
-            "hint1": "Jeder Belag war nur ein winziger Klecks – ein kulinarisches Experiment der Extreme.",
-            "hint2": "Es sind mehr Sorten, als ein Schaltjahr Tage hat plus 141.",
-            "answer": 507
+            "question": "Wie viele verschiedene Emojis gibt es im Standard 'Unicode 16.0' (2025)?",
+            "hint1": "Vom lachenden Haufen bis zum neuen 'Fingerabdruck'-Emoji ist alles dabei.",
+            "hint2": "Es ist eine vierstellige Zahl. Stell dir vor, du hättest für jedes Wort in einem kleinen Wörterbuch ein Bild.",
+            "answer": 3782
         },
         {
-            "question": "Wie viele Zähne hat eine gewöhnliche Garten-Hausschnecke auf ihrer Raspelzunge?",
-            "hint1": "Sie beißt nicht, aber sie fräst sich mit mikroskopischer Gewalt durch deinen Salat.",
-            "hint2": "Es ist eine fünfstellige Zahl – ein echter Rekord im Tierreich für so ein kleines Tier.",
-            "answer": 25000
+            "question": "Wie viele Euro kostet das 'Amazon Prime' Jahresabo in Deutschland im Jahr 2025?",
+            "hint1": "Inklusive Versandflatrate und Streaming-Dienst Video.",
+            "hint2": "Es ist eine zweistellige Zahl, die knapp unter der 100er-Grenze bleibt.",
+            "answer": 90
         },
         {
-            "question": "Wie viele Milliliter Blut pumpt ein gesundes Menschenherz mit jedem einzelnen Schlag?",
-            "hint1": "Stell dir eine kräftige Portion vor, die durch deine Adern schießt – ein echtes Kraftwerk.",
-            "hint2": "Es ist exakt die Menge, die in ein ordentliches Schnapsglas (Shot) passt, plus 50 (wenn es ein kleiner Shot war). Nein, denk an 70!",
-            "answer": 70
+            "question": "Wie viele Millionen Songs stehen bei 'Spotify' im Jahr 2026 zur Verfügung?",
+            "hint1": "Jeden Tag werden tausende neue Tracks hochgeladen, auch viel KI-generierte Musik.",
+            "hint2": "Es ist eine dreistellige Zahl. Stell dir vor, du würdest für jeden Menschen in Deutschland einen Song haben – und dann noch ein paar Millionen extra.",
+            "answer": 110
         },
         {
-            "question": "Wie viele Meter ist der Berliner Fernsehturm am Alexanderplatz insgesamt hoch?",
-            "hint1": "Das höchste Bauwerk Deutschlands, das jeder Berliner als Orientierungspunkt nutzt.",
-            "hint2": "Es ist fast genau die Anzahl der Tage in einem Schaltjahr plus zwei Meter oben drauf.",
-            "answer": 368
+            "question": "Wie viele Euro kostet eine 0,5l Flasche 'Coca-Cola' am Kiosk im Berliner Wedding (ohne Pfand) 2025?",
+            "hint1": "Der Kiosk-Preis ist immer etwas höher als im Supermarkt, aber fair für die Kühlung.",
+            "hint2": "Es ist eine einstellige Zahl mit Komma, wir suchen den Cent-Betrag. Es ist genau 1 Euro und 80 Cent.",
+            "answer": 180
         },
         {
-            "question": "Wie viele Jahre saß Nelson Mandela insgesamt im Gefängnis?",
-            "hint1": "Ein Monument der Geduld und des Kampfgeistes für die Freiheit.",
-            "hint2": "Die Zahl ist identisch mit dem berühmten 'Club 27' der verstorbenen Rockstars.",
-            "answer": 27
+            "question": "Wie viele 'Megapixel' hat die Selfie-Frontkamera des Samsung Galaxy S26 (Release 2026)?",
+            "hint1": "Die Qualität für Video-Calls und Social Media ist heute wichtiger als die Rückkamera.",
+            "hint2": "Es ist eine zweistellige Zahl. Nimm das Alter, in dem man in Deutschland den Führerschein machen darf.",
+            "answer": 18
         },
         {
-            "question": "Wie viele aktive Satelliten umkreisen aktuell die Erde (Stand 2024)?",
-            "hint1": "Dank Elon Musk und Starlink wird es da oben langsam richtig kuschelig im Orbit.",
-            "hint2": "Es ist eine vierstellige Zahl, die stramm auf die 10.000er Marke zugeht.",
-            "answer": 9500
+            "question": "Wie viele Euro kostet die 'Nintendo Switch 2' (oder Nachfolger) bei Release 2025 schätzungsweise?",
+            "hint1": "Nintendo bleibt familienfreundlich beim Preis, muss aber die neue Hardware refinanzieren.",
+            "hint2": "Es ist eine dreistellige Zahl. Etwa so viel wie zwei neue Top-Smartphones der Mittelklasse.",
+            "answer": 449
         },
         {
-            "question": "Wie viele Millionen Dollar kostete die Produktion des Videospiels 'Star Citizen' bisher?",
-            "hint1": "Es ist das teuerste Crowdfunding-Projekt der Geschichte und immer noch nicht ganz fertig.",
-            "hint2": "Eine stolze dreistellige Zahl, die mittlerweile bei 600 liegt.",
-            "answer": 600
-        },
-        {
-            "question": "Wie viele Oscars hat der Film 'Titanic' insgesamt gewonnen?",
-            "hint1": "James Cameron war an diesem Abend wirklich der 'King of the World'.",
-            "hint2": "Eine ungerade Zahl, die man oft mit einer Fußballmannschaft verbindet.",
-            "answer": 11
-        },
-        {
-            "question": "Wie viele Stunden am Tag verbringt ein Koala-Bär durchschnittlich mit Schlafen?",
-            "hint1": "Eukalyptusblätter haben so wenig Energie, dass diese Tiere quasi im Dauerkoma leben.",
-            "hint2": "Es ist eine zweistellige Zahl – sie schlafen fast den kompletten Tag durch.",
-            "answer": 22
-        },
-        {
-            "question": "Wie viele Inseln gehören offiziell zum Stadtgebiet von Berlin?",
-            "hint1": "Berlin ist eine Wasserstadt – von der Pfaueninsel bis zur Museumsinsel gibt es überall Land im Fluss.",
-            "hint2": "Es ist die Schnapszahl von elf mal zwei.",
-            "answer": 22
-        },
-        {
-            "question": "Wie viele Tasten hat ein klassischer NES-Controller (Nintendo Entertainment System)?",
-            "hint1": "Steuerkreuz, zwei Knöpfe für Action und zwei in der Mitte – schlicht und genial.",
-            "hint2": "Es ist eine einstellige Zahl, die kleiner ist als 10.",
+            "question": "Wie viele Minuten dauert die Fahrt mit der 'U5' in Berlin vom Alexanderplatz bis zum Hauptbahnhof?",
+            "hint1": "Die Kanzler-U-Bahn verbindet die wichtigsten Knotenpunkte im Minutentakt.",
+            "hint2": "Es ist eine einstellige Zahl. Schneller als man einen Kaffee trinken kann.",
             "answer": 8
         },
         {
-            "question": "Wie viele Gramm wiegt eine handelsübliche 2-Euro-Münze?",
-            "hint1": "Sie ist das Schwergewicht in deinem Geldbeutel, zweifarbig und massiv.",
-            "hint2": "Es ist eine einstellige Zahl – fast so viel wie zwei Stück Würfelzucker.",
-            "answer": 9
+            "question": "Wie viele Milliarden Euro Umsatz macht 'Delivery Hero' (Lieferheld/Foodora) weltweit 2025?",
+            "hint1": "Das Berliner Unternehmen ist einer der größten Player im globalen Liefergeschäft.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, jeder Berliner würde dem Unternehmen 3000 Euro geben.",
+            "answer": 12
         },
         {
-            "question": "Wie viele Liter Wasser braucht man, um ein einziges Kilo Rindfleisch zu produzieren?",
-            "hint1": "Baumwolle ist durstig, aber eine Kuh, die Futter und Wasser über Jahre braucht, toppt alles.",
-            "hint2": "Eine fünfstellige Zahl. Du könntest damit ein ganzes Jahr lang jeden Tag baden.",
-            "answer": 15000
+            "question": "Wie viele Euro kostet eine 'Kugel Eis' in einer Berliner Standard-Eisdiele (nicht Luxus) im Jahr 2025?",
+            "hint1": "Die Preise haben sich nach den Energie-Sprüngen der Vorjahre eingependelt.",
+            "hint2": "Es ist eine einstellige Zahl mit Komma. Wir suchen den Cent-Betrag. Es sind zwei Euro.",
+            "answer": 200
         },
         {
-            "question": "Wie viele Tausend Euro kostet ein Ticket für die Fahrt zur Titanic-Ruine (vor dem Tauchboot-Unglück)?",
-            "hint1": "Ein exklusiver Trip für Milliardäre in 3.800 Meter Tiefe.",
-            "hint2": "Für den Preis könntest du dir auch eine kleine Eigentumswohnung in einer ländlichen Gegend kaufen.",
-            "answer": 250
+            "question": "Wie viele 'Likes' hat das meistgelikte Foto auf Instagram im Jahr 2025 (immer noch das Ei oder Messi)?",
+            "hint1": "Es ist ein Weltrekord, der seit der WM 2022 steht.",
+            "hint2": "Es ist eine zweistellige Millionenzahl. Stell dir vor, fast die gesamte Bevölkerung Deutschlands hätte auf das Herz geklickt.",
+            "answer": 75
         },
         {
-            "question": "Wie viele Jahre dauerte der Bau des Kölner Doms (insgesamt über alle Bauphasen)?",
-            "hint1": "Dagegen war der Berliner Flughafen ein Wochenendprojekt. Generationen von Steinmetzen arbeiteten daran.",
-            "hint2": "Eine dreistellige Zahl, die mit einer 6 beginnt – über ein halbes Jahrtausend.",
-            "answer": 632
-        },
-        {
-            "question": "Wie viele Milliliter Ketchup stecken in einer großen Standard-Plastikflasche von Heinz (875g)?",
-            "hint1": "Wir suchen das Volumen in Millilitern, das auf der Rückseite steht.",
-            "hint2": "Es ist eine dreistellige Zahl, die knapp unter 900 liegt.",
-            "answer": 700
-        },
-        {
-            "question": "Wie viele Kilogramm wiegt der größte jemals produzierte Goldbarren der Welt?",
-            "hint1": "Diesen Klotz kannst du garantiert nicht alleine wegtragen – ein wahrer Schatz.",
-            "hint2": "Er wiegt so viel wie drei ausgewachsene Männer zusammen.",
-            "answer": 250
-        },
-        {
-            "question": "Wie viele Millionen Exemplare wurde das Album 'Thriller' von Michael Jackson weltweit verkauft?",
-            "hint1": "Das meistverkaufte Album aller Zeiten – ein Meilenstein der Musikgeschichte.",
-            "hint2": "Eine stolze Zahl in den 70ern.",
-            "answer": 70
-        },
-        {
-            "question": "Wie viele Millimeter Durchmesser hat eine Standard-CD?",
-            "hint1": "Das Format, das die Kassette ablöste und heute fast im Museum steht.",
-            "hint2": "Eine dreistellige Zahl – man kennt sie auch von der Stromspannung in manchen Ländern (fast).",
-            "answer": 120
-        },
-        {
-            "question": "Wie viele verschiedene Gemüsesorten stecken in einer klassischen Dose 'Mirácoli' Tomatensauce?",
-            "hint1": "Es ist eine sehr puristische Sauce für den schnellen Hunger.",
-            "hint2": "Es ist die kleinste Primzahl (außer der 1, die wir ja nicht nehmen dürfen).",
-            "answer": 2
-        },
-        {
-            "question": "Wie viele Kilometer Schienennetz betreibt die Deutsche Bahn in ganz Deutschland?",
-            "hint1": "Ein gigantisches Adernetz aus Stahl, das jeden Winkel des Landes verbindet.",
-            "hint2": "Eine fünfstellige Zahl, mit der man die Erde fast einmal umrunden könnte.",
-            "answer": 33400
-        },
-        {
-            "question": "Wie viele Kalorien verbrennt man, wenn man 10 Minuten lang intensiv lacht?",
-            "hint1": "Lachen ist das beste Bauchmuskeltraining und macht auch noch gute Laune.",
-            "hint2": "Es ist etwa so viel wie ein kleines Stück Schokolade – eine zweistellige Zahl.",
+            "question": "Wie viele verschiedene 'App-Icons' hat ein durchschnittlicher iPhone-Nutzer 2026 auf seinem Homescreen?",
+            "hint1": "Dank App-Library und Ordnern wird es aufgeräumter, aber die Zahl der installierten Apps bleibt hoch.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, du hättest für jedes Jahr deines Berufslebens eine App.",
             "answer": 40
         },
         {
-            "question": "Wie viele Millimeter wachsen menschliche Fingernägel durchschnittlich in einem Monat?",
-            "hint1": "Ein langsamer, aber stetiger Prozess – an der dominanten Hand geht es schneller.",
-            "hint2": "Es ist eine sehr kleine, einstellige Zahl.",
-            "answer": 3
+            "question": "Wie viele Euro kostet ein 'Mittagsmenü' (Hauptgericht + Getränk) in einer Berliner Kantine 2025?",
+            "hint1": "Günstiger als im Restaurant, aber auch hier sind die Personalkosten gestiegen.",
+            "hint2": "Es ist eine zweistellige Zahl. Ein glatter Betrag, der oft mit einem Zehn-Euro-Schein bezahlt wird.",
+            "answer": 10
         },
         {
-            "question": "Wie viele Liter Luft passen in eine voll aufgepumpte menschliche Lunge?",
-            "hint1": "Dein innerer Blasebalg, der dich am Leben hält.",
-            "hint2": "Stell dir drei große Cola-Flaschen vor – dieses Volumen verdoppelt.",
-            "answer": 6
+            "question": "Wie viele 'Tesla Supercharger' Stationen gibt es in Deutschland Anfang 2026?",
+            "hint1": "Das Ladenetz wächst rasant, auch für Fremdfahrzeuge.",
+            "hint2": "Es ist eine vierstellige Zahl. Stell dir vor, in jeder größeren deutschen Stadt gäbe es zwei Stationen.",
+            "answer": 2500
         },
         {
-            "question": "Wie viele bit sind in genau einem Megabyte (MB) nach klassischer Rechnung?",
-            "hint1": "Das Fundament jeder digitalen Information – Nullen und Einsen in Massen.",
-            "hint2": "Acht mal tausend mal tausend – eine siebenstellige Zahl.",
-            "answer": 8000000
+            "question": "Wie viele Millionen Euro verdient der bestbezahlte 'E-Sportler' der Welt im Jahr 2025?",
+            "hint1": "Gaming ist ein Milliardengeschäft, die Top-Stars haben Verträge wie Fußballprofis.",
+            "hint2": "Es ist eine einstellige Zahl. Mehr als ein Chefarzt, weniger als Cristiano Ronaldo.",
+            "answer": 4
         },
         {
-            "question": "Wie viele Millionen Dollar war das erste Gebot für den ersten Tweet der Welt als NFT?",
-            "hint1": "Ein digitaler Hype, der später massiv an Wert verlor.",
-            "hint2": "Es ist die kleinste Primzahl.",
-            "answer": 2
+            "question": "Wie viele Euro kostet die 'Monatskarte' für das Berliner 29-Euro-Ticket (Abo) im Jahr 2025?",
+            "hint1": "Berlin hält an seinem eigenen günstigen Tarif für das Stadtgebiet fest.",
+            "hint2": "Die Antwort steckt bereits im Namen der Frage.",
+            "answer": 29
         },
         {
-            "question": "Wie viele Jahre war Angela Merkel insgesamt deutsche Bundeskanzlerin?",
-            "hint1": "Die Ära der Raute – eine halbe Ewigkeit in der deutschen Politik.",
-            "hint2": "Genau zwei mal acht Jahre.",
-            "answer": 16
+            "question": "Wie viele verschiedene 'Sprachen' beherrscht die KI-Übersetzung von Google (Live-Translate) 2026?",
+            "hint1": "Du kannst dich fast überall auf der Welt verständigen, solange du Internet hast.",
+            "hint2": "Es ist eine dreistellige Zahl. Nimm die Anzahl der Tage im Jahr und teile sie durch 3.",
+            "answer": 133
         },
         {
-            "question": "Wie viele Milligramm Koffein stecken in einer 100g-Tafel Zartbitterschokolade (mind. 45% Kakao)?",
-            "hint1": "Kakao ist ein natürlicher Wachmacher – je dunkler, desto mehr Power.",
-            "hint2": "Eine zweistellige Zahl, die knapp unter 50 liegt.",
-            "answer": 43
+            "question": "Wie viele Gramm wiegt das neue 'iPhone 17 Pro Max' (Release 2025) schätzungsweise durch Titan-Bauweise?",
+            "hint1": "Apple versucht die Geräte jedes Jahr ein Stück leichter zu machen, trotz größerem Akku.",
+            "hint2": "Es ist eine dreistellige Zahl. Etwa so viel wie zwei Tafeln Schokolade und ein Kaugummi.",
+            "answer": 215
+        },
+        {
+            "question": "Wie viele Millionen Podcasts werden wöchentlich auf 'Spotify' weltweit neu hochgeladen (Stand 2026)?",
+            "hint1": "Jeder hat was zu sagen, die Barrieren für die Produktion sind fast Null.",
+            "hint2": "Es ist eine einstellige Zahl. Stell dir vor, jeder hundertste Berliner würde eine Folge aufnehmen.",
+            "answer": 4
+        },
+        {
+            "question": "Wie viele Euro kostet ein '0,33l Glas Club Mate' in einem Berliner Club (z.B. Ritter Butzke) 2025?",
+            "hint1": "Der Standard-Wachmacher für die Tanzfläche.",
+            "hint2": "Es ist eine einstellige Zahl. Ein stolzer Preis für eine Limonade, oft so viel wie ein Bier.",
+            "answer": 5
+        },
+        {
+            "question": "Wie viele 'Threads' (Social Media) Nutzer gibt es in Europa Anfang 2025 schätzungsweise?",
+            "hint1": "Nach dem verspäteten Start in der EU hat die App massiv aufgeholt.",
+            "hint2": "Es ist eine zweistellige Millionenzahl. Stell dir vor, halb Frankreich wäre dort angemeldet.",
+            "answer": 35
+        },
+        {
+            "question": "Wie viele Euro kostet ein 'Kilo Marken-Kaffee' (z.B. Jacobs/Dallmayr) im Angebot 2025?",
+            "hint1": "Kaffee-Preise schwanken stark je nach Ernte, aber Angebote locken immer.",
+            "hint2": "Es ist eine zweistellige Zahl. Meistens ein Betrag, der auf '99' endet. Wir suchen die Euro-Ganzzahl.",
+            "answer": 12
+        },
+        {
+            "question": "Wie viele Terabyte (TB) Speicher hat die kleinste Version des 'MacBook Air' im Jahr 2026 standardmäßig?",
+            "hint1": "Apple hat endlich den Basisspeicher für Profis und Studenten angehoben.",
+            "hint2": "Es ist eine dreistellige Zahl in Gigabyte. Wir suchen den Wert in Gigabyte als Ganzzahl. Es ist ein halbes Terabyte.",
+            "answer": 512
+        },
+        {
+            "question": "Wie viele Euro kostet ein 'Liter Super Benzin' in Berlin im Jahresschnitt 2025?",
+            "hint1": "Die CO2-Steuer steigt, aber die Weltmarktpreise sind relativ stabil.",
+            "hint2": "Es ist eine einstellige Zahl mit Komma. Wir suchen den Cent-Betrag. Es sind 1 Euro und 85 Cent.",
+            "answer": 185
+        },
+        {
+            "question": "Wie viele Millionen Zuschauer schauen das 'Finale der Fußball-EM 2024' (Rückblickend als Marktwert für 2025)?",
+            "hint1": "Es war das TV-Ereignis des Jahres in Deutschland.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, fast jeder dritte Deutsche hätte eingeschaltet.",
+            "answer": 26
+        },
+        {
+            "question": "Wie viele verschiedene 'Zahlungsmethoden' akzeptiert ein durchschnittlicher Berliner Späti 2026?",
+            "hint1": "Früher war 'Nur Bares ist Wahres', heute geht fast alles von Apple Pay bis Bitcoin.",
+            "hint2": "Es ist eine einstellige Zahl. Bar, Karte, Handy... zähl mal durch.",
+            "answer": 5
+        },
+        {
+            "question": "Wie viele Gramm Fleischersatz (veganes Hack) sind in einer Standardpackung bei 'Lidl' 2025?",
+            "hint1": "Die Packungsgrößen orientieren sich am klassischen Mett.",
+            "hint2": "Es ist eine dreistellige Zahl. Genau so viel wie ein Pfund früher.",
+            "answer": 275
+        },
+        {
+            "question": "Wie viele Euro kostet die 'TV-Gebühr' (Rundfunkbeitrag) pro Haushalt im Monat ab 2025?",
+            "hint1": "Es wurde lange über eine Erhöhung gestritten, um die Inflation auszugleichen.",
+            "hint2": "Es ist eine zweistellige Zahl. Knapp unter 20 Euro.",
+            "answer": 19
+        },
+        {
+            "question": "Wie viele Millionen 'Smartphones' werden in Deutschland pro Jahr schätzungsweise neu verkauft?",
+            "hint1": "Die Leute behalten ihre Geräte heute länger, aber der Markt ist immer noch riesig.",
+            "hint2": "Es ist eine zweistellige Zahl. Stell dir vor, jeder vierte Deutsche bekommt jedes Jahr ein neues Handy.",
+            "answer": 20
         }
     ]
 ;
